@@ -97,6 +97,7 @@
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="logo.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -395,7 +396,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="background.jpg" class="quarto-title-block center">
+<section id="title-slide" data-background-image="background.jpg" data-footer="balsaedi@ut.edu.sa" class="quarto-title-block center">
   <h1 class="title">المهارات الاحصائية في البحث العلمي</h1>
 
 <div class="quarto-title-authors">
@@ -1398,6 +1399,7 @@
 </div>
 </div>
 </div>
+<p><img src="logo3.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>برنامج (معارف) الصيفي لإعداد طلبة الدراسات العليا</p>
 </div>
@@ -1613,6 +1615,30 @@
           RevealSearch,
           RevealZoom
         ]
+      });
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      function add_custom_footer() {
+        let title_slide = document.querySelector("section#title-slide");
+        let title_slide_footer = title_slide.getAttribute('data-footer');
+        let footer = document.querySelector('div.footer p');
+        let global_footer_text = footer.innerHTML;
+        
+        if (title_slide.classList.contains('present')) {
+          footer.innerHTML = title_slide_footer;
+        }
+        
+        Reveal.on( 'slidechanged' , event => {
+            if (event.currentSlide.matches('#title-slide')) {
+              footer.innerHTML = title_slide_footer;
+            } else {
+              footer.innerHTML = global_footer_text;
+            }
+          });
+      };
+      
+      window.addEventListener("load", (event) => {
+        add_custom_footer();
       });
     </script>
     

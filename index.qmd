@@ -1,17 +1,20 @@
 ---
 title: "المهارات الاحصائية في البحث العلمي"
 author: د. باسم بن صالح الصاعدي
-Last update: "your.email@example.com"
 date: 04 aug 2024 
-format: 
+format:
   revealjs:
-    slide-number: c/t
-    chalkboard: true
-    pdf-max-pages-per-slide: true
-    footer: "برنامج (معارف) الصيفي لإعداد طلبة الدراسات العليا"
-    transition: slide
-    title-slide-attributes: 
-      data-background-image: background.jpg
+    logo: logo3.png
+    slide-number: true
+    css: logo.css
+chalkboard: true
+pdf-max-pages-per-slide: true
+footer: "برنامج (معارف) الصيفي لإعداد طلبة الدراسات العليا"
+transition: slide
+title-slide-attributes: 
+  data-background-image: background.jpg
+  data-footer: "balsaedi@ut.edu.sa"
+include-after-body: add-custom-footer.htm
 ---
 
 
