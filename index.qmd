@@ -14,6 +14,10 @@ format:
       data-background-image: background.jpg
 ---
 
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
 ::: {.notes}
 
  نحن نتعرض باستمرار للبيانات عبر الأخبار ووسائل التواصل الاجتماعي. غالبًا ما تكون الادعاءات المقدمة هنا مبالغ فيها أو محرفة لتناسب رواية معينة. التفكير الإحصائي يسمح لنا بفرز كل هذه الادعاءات المتضاربة واتخاذ قراراتنا بناءً على الأدلة.
@@ -692,7 +696,7 @@ ggplot(NHANES, aes(x=Height))+geom_histogram()
 ## 
 
 
-![](Hist3_1.png){width=50%}
+![](Hist3.png){width=50%}
 
 
 
