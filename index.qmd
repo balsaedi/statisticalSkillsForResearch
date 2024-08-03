@@ -14,9 +14,6 @@ format:
       data-background-image: background.jpg
 ---
 
-```{r broadcast, echo=FALSE}
-xaringanExtra::use_broadcast()
-```
 
 ::: {.notes}
 
