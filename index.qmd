@@ -857,7 +857,24 @@ ggplot(NHANES, aes(x=Height))+geom_histogram()
 
 # هل ممكن ان تكون النتائج ممتازة جدا ؟
 
+
+
+::: {.incremental}
+
+
+
 - تكون اذا كانت النتائج غير منطقية
+
+- | النموذج الاحصائي | $R^2$ | MAE | RMSE |
+|---------|:-----|------:|:------:|
+| Linear Regression      | 0.974   |    0.526 |   0.526   |
+| Decision Tree regression     | 0.999  |   0.568 |  0.5   |
+| LASSO Regression       | 0.991    |     0.556 |   0.745    |
+
+-  مثال على تقييم النموذج الاحصائي لتوقع نسبة الدهون في جسم الانسان
+
+:::
+
 
 
 # أدوات التحليل الاحصائي
@@ -913,7 +930,9 @@ ggplot(NHANES, aes(x=Height))+geom_histogram()
 
 ::: {.column width="50%" .fragment}
 
-برامج جداول البياناتلغات البرمجة لتحليل البيانات
+
+لغات البرمجة لتحليل البيانات
+
 
 ::: {.incremental}
 - ![](Rlogo.png){fig-align=center width="50%"}
