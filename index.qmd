@@ -628,19 +628,6 @@ library(knitr)
 data(NHANES)
 ```
 
-```{r}
-head(NHANES)
-```
-
-
-```{r}
-dim(NHANES)
-```
-
-
-
-
-##
 
 
 
@@ -650,6 +637,11 @@ dim(NHANES)
 ```{r}
 #| class-output: hscroll
 head(NHANES)
+```
+
+
+```{r}
+dim(NHANES)
 ```
 
 ```{css, echo=FALSE}
@@ -837,10 +829,12 @@ ggplot(NHANES, aes(x=Height))+geom_histogram()
 
 - ![](H2_2.png){fig-align=center width="70%"}
 
-$\beta_0+\beta_1 (age)$
+- $\beta_0+\beta_1 (age)$
+
 - ![](H3_3.png){fig-align=center width="70%"}
 
-$\beta_0+\beta_1 (age)+\beta_2 (Gender)$
+- $\beta_0+\beta_1 (age)+\beta_2 (Gender)$
+
 - ![](H4_4.png){fig-align=center width="70%"}
 :::
 
@@ -876,10 +870,10 @@ $\beta_0+\beta_1 (age)+\beta_2 (Gender)$
 
 
 ::: {.incremental}
-- ![](Microsoft_Office_Excel.png){fig-align=center width="50%"}
+- ![](Microsoft_Office_Excel.png){fig-align=center width="35%"}
 
 
-- ![](Google_Sheets_Logo_256px.png){fig-align=center width="50%"}
+- ![](Google_Sheets_Logo_256px.png){fig-align=center width="35%"}
 
 :::
 
