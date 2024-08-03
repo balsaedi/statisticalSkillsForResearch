@@ -9,11 +9,11 @@ format:
     css: logo.css
 chalkboard: true
 pdf-max-pages-per-slide: true
-footer: "برنامج (معارف) الصيفي لإعداد طلبة الدراسات العليا"
+footer: "balsaedi@ut.edu.sa"
 transition: slide
 title-slide-attributes: 
   data-background-image: background.jpg
-  data-footer: "balsaedi@ut.edu.sa"
+  data-footer: "برنامج (معارف) الصيفي لإعداد طلبة الدراسات العليا"
 include-after-body: add-custom-footer.htm
 ---
 
