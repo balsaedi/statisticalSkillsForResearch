@@ -861,3 +861,92 @@ $\beta_0+\beta_1 (age)+\beta_2 (Gender)$
 
 - تكون اذا كانت النتائج غير منطقية
 
+
+# أدوات التحليل الاحصائي
+
+
+:::: {.columns}
+
+
+
+
+::: {.column width="50%" .fragment}
+
+برامج جداول البيانات
+
+
+::: {.incremental}
+- ![](Microsoft_Office_Excel.png){fig-align=center width="50%"}
+
+
+- ![](Google_Sheets_Logo_256px.png){fig-align=center width="50%"}
+
+:::
+
+:::
+
+
+::: {.column width="50%" .fragment}
+
+
+برامج تحليل البيانات المتخصصة
+
+
+::: {.incremental}
+
+
+- ![](IBMSPSS.png){fig-align=center width="50%"}
+
+
+
+- ![](tableau.jpg){fig-align=center width="50%"}
+
+:::
+:::
+
+::::
+
+#
+
+:::: {.columns}
+
+
+
+
+::: {.column width="50%" .fragment}
+
+برامج جداول البياناتلغات البرمجة لتحليل البيانات
+
+::: {.incremental}
+- ![](Rlogo.png){fig-align=center width="50%"}
+
+
+- ![](Python-Logo.png){fig-align=center width="50%"}
+
+:::
+
+:::
+
+
+::: {.column width="50%" .fragment}
+
+
+برامج متخصصة في التعامل مع الاستبانات
+
+
+::: {.incremental}
+
+
+- ![](survey-monkey.png){fig-align=center width="50%"}
+
+
+
+- ![](Asset-1@2x.png){fig-align=center width="50%"}
+
+
+- ![](zoho-survey.png){fig-align=center width="50%"}
+
+:::
+:::
+
+::::
